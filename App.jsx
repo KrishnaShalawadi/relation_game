@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+// difference between useState and useReducer
 const generateRandomRelation = (setSize) => {
   const relation = [];
   for (let i = 0; i < setSize; i++) {
